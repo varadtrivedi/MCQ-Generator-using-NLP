@@ -30,3 +30,4 @@ ML Frameworks	PyTorch, Transformers
 PDF Processing	PyPDF2
 Data Handling	Pandas, NumPy
 Environment	VS Code with Virtual Environment (venv)
+<img width="866" height="833" alt="Screenshot 2025-10-30 at 10 55 23 AM" src="https://github.com/user-attachments/assets/8dd52c4d-d455-47fb-9bab-1b0d17445010" />
