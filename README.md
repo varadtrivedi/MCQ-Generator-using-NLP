@@ -1,21 +1,32 @@
-# MCQ Generator using NLP 📚
+MCQ Generator using NLP
 
-Automated Multiple Choice Question (MCQ) generation using NLP techniques. This project takes input text (e.g. passages, articles) and generates MCQs (questions, options, correct answer) automatically.
+An intelligent Multiple Choice Question (MCQ) Generator that uses Natural Language Processing (NLP) to automatically create questions, options, and answers from any given text or PDF.
 
-## 🎯 Project Overview
+This project leverages spaCy, NLTK, and Streamlit to process text, extract key entities, and generate meaningful MCQs with distractors — all through an easy-to-use web interface.
 
-This repository focuses on:
-- Using NLP and language models to generate MCQs from text.
-- Techniques for distractor (wrong option) generation.
-- Evaluating quality of generated questions (fluency, relevance).
-- Deploying a simple web interface or app to enter text and receive MCQs.
+Project Overview
+Objective
 
-## 🧰 Tech Stack & Tools
+The goal of this project is to automate the process of question generation from text passages, saving time for educators, students, and content creators.
 
-- Python  
-- NLP / Language model libraries (e.g. Hugging Face Transformers, NLTK, spaCy)  
-- Deep learning frameworks (PyTorch / TensorFlow)  
-- Web app: Flask / Streamlit (or custom `app.py`)  
-- Frontend templates (HTML, Bootstrap)  
-- Jupyter Notebooks for experimentation  
-- Evaluation: BLEU, human evaluation, or custom metrics  
+Features
+
+Takes text input (typed or uploaded .txt / .pdf files)
+
+Identifies key nouns and entities
+
+Generates fill-in-the-blank style questions
+
+Creates multiple-choice options (1 correct + 3 distractors)
+
+Displays MCQs neatly in a web interface
+
+Tech Stack and Tools
+Category	Tools Used
+Programming Language	Python 3.13
+Frontend / UI	Streamlit
+NLP Libraries	spaCy, NLTK
+ML Frameworks	PyTorch, Transformers
+PDF Processing	PyPDF2
+Data Handling	Pandas, NumPy
+Environment	VS Code with Virtual Environment (venv)
