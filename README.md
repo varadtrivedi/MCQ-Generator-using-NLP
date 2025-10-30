@@ -95,4 +95,5 @@ The final MCQs are displayed through the Streamlit interface, with clearly forma
 ---
 
 ## System Architecture (Overview)
+<img width="866" height="833" alt="Screenshot 2025-10-30 at 10 55 23 AM" src="https://github.com/user-attachments/assets/93610ec6-ee87-4ea7-b983-1c627ff13d94" />
 
